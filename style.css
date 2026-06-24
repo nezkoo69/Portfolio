@@ -250,6 +250,46 @@ section h2 {
     font-weight: 500;
 }
 
+.skills-subtitle{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #a78bfa;
+    font-weight: 600;
+}
+
+.learning-title{
+    margin-top: 80px;
+}
+
+/* OBJECTIF */
+.objectif {
+    padding: 120px 10%;
+    text-align: center;
+}
+
+.objectif p {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, .04);
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    color: #bdbdbd;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    transition: .3s;
+}
+
+.objectif p:hover {
+    transform: translateY(-5px);
+    border-color: rgba(167, 139, 250, .4);
+}
+
+
+
+
 /* PROJETS */
 
 #projects {
